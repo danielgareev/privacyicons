@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>UZH Privacy Icons Survey</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">UZH Privacy Icons Survey</h1>
+      <p id="description" class="description text-center">
+        Thank you for taking part in the research project.
+      </p>
+    </header>
+    <form id="survey-form">
+        <a href="https://www.uzh.ch/"><img class="logo" src="css/logo.svg"></a>
+        <p id="description" class="description">
+           Dear Participant, 
+           <br><br>
+           Thank you for your interest and participation!
+           <br><br>
+           This survey is a part of a research project carried out by the University of Zurich, Switzerland. This research aims to study user-friendly icons representing non-user-friendly privacy policies.
+           <br><br>
+           It takes about 7-10 minutes to complete the survey.
+           <br><br>
+          </p>
+      <div class="form-group">
+        <!-- <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div> -->
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Gender<span class="clue">(optional)</span></label>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="preferNo">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>What is the highest degree or level of school you have completed? If currently enrolled, highest degree received.</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select the level of education</option>
+          <option value="no_school">No schooling completed</option>
+          <option value="partial_highschool">Some high school, no diploma</option>
+          <option value="grad_highschool">High school graduate, diploma or the equivalent</option>
+          <option value="partial_college">Some university credit, no degree</option>
+          <option value="training">Trade/technical/vocational training</option>
+          <option value="associate">Associate degree</option>
+          <option value="bachelor">Bachelor’s degree</option>
+          <option value="master">Master’s degree</option>
+          <option value="professional">Professional degree</option>
+          <option value="doctorate">Doctorate degree</option>
+
+          <option value="preferNo">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>What is your region (canton)?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your canton</option>
+          <option value="zh">Zürich</option>
+          <option value="be">Bern</option>
+          <option value="lu">Luzern</option>
+          <option value="ur">Uri</option>
+          <option value="sz">Schwyz</option>
+          <option value="ob">Obwalden</option>
+          <option value="nw">Nidwalden</option>
+          <option value="gl">Glarus</option>
+          <option value="zg">Zug</option>
+          <option value="fr">Fribourg</option>
+          <option value="so">Solothurn</option>
+          <option value="bs">Basel-Stadt</option>
+          <option value="bl">Basel-Landschaft</option>
+          <option value="sh">Schaffhausen</option>
+          <option value="ar">Appenzell Ausserrhoden</option>
+          <option value="ai">Appenzell Innerrhoden</option>
+          <option value="sg">St. Gallen</option>
+          <option value="gr">Graubünden; Grisons</option>
+          <option value="ag">Aargau</option>
+          <option value="ti">Ticino</option>
+          <option value="vd">Vaud</option>
+          <option value="vs">Valais</option>
+          <option value="ne">Neuchâtel</option>
+          <option value="ge">Geneva</option>
+          <option value="ju">Jura</option>
+          <option value="preferNo">Prefer not to say</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Please indicate to which extent the icons below are easy or difficult to understand for the statements?</p>
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">Information is visible only for friends.</span>
+           </p>
+
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/primelife1.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/privacyawareness1.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik1.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">Information is visible for friends of friends.</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/primelife2.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/privacyawareness2.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik2.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">Information is public (visible for everyone).</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/primelife3.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/privacyawareness3.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/knowprivacy3.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">The data is sold to a third party.</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/mozila4.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik4.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">The data is used to create customized advertisement.</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/mozila5.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/knowprivacy5.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik5.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">The data is going to be deleted after a certain time.</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img"><img src="css/icons/mozila6.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/primelife6.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik6.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">The address details are being stored.</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+            <td class="img"><img src="css/icons/knowprivacy7.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik7.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="form-group">
+        <p id="description" class="description">
+            <!-- How easy or difficult is it for you to understand that these icons indicate that  -->
+            <span class="text-bold">The data about computer (IP address, browser type) is being stored</span>
+           </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>Extremely difficult</td>
+            <td>Moderately difficult</td>
+            <td>Neither easy nor difficult</td>
+            <td>Moderately easy</td>
+            <td>Extremely easy</td>
+          </tr>
+        </thead>
+        <tbody>
+            <td class="img"><img src="css/icons/knowprivacy8.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+          <tr>
+            <td class="img"><img src="css/icons/netzpolitik8.png"></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+            <td><label><input name="level" class="input-radio" type="radio"/></label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+      <p id="description" class="description">If you have any additional comments or questions, please feel free to write them here.       </p>
+      <div class="form-group">
+        <p>Any comments or suggestions?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <p>
+          Please confirm your consent to participate in the survey.
+          <!-- <span class="clue">(Check all that apply)</span> -->
+        </p>
+  
+        <label
+          ><input
+            name="confirm"
+            value="confirm"
+            type="checkbox"
+            class="input-checkbox"
+          />I confirm my participation.</label
+        >
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  
+</body>
+
+</html>
